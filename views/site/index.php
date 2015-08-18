@@ -35,7 +35,7 @@
                              data-speed="900" 
                              data-start="2500" 
                              data-easing="easeOutExpo">
-                            <div class="page-scroll"><a href="#about"><i class="fa fa-angle-down fa-5x"></i></a></div>
+                            <div class="page-scroll"><a href="#project"><i class="fa fa-angle-down fa-5x"></i></a></div>
                         </div> 
                     </li>
                 </ul>
@@ -68,23 +68,17 @@
             <!-- BEGIN NAVIGATION -->
             <div class="header-navigation pull-right collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav">
-                    <li class="page-scroll active">
-                        <a href="#intro">Home</a>
-                    </li>
                     <li class="page-scroll">
-                        <a href="#about">About</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#features">Features</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#team">Team</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#clients">Clients</a>
+                        <a href="#project">PROYECTO</a>
                     </li>                    
                     <li class="page-scroll">
-                        <a href="#portfolio">Portfolio</a>
+                        <a href="#offices">OFICINAS</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#location">UBICACION</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#video">VIDEO</a>
                     </li>
                     <li class="page-scroll">
                         <a href="#contact">Contact</a>
@@ -100,7 +94,7 @@
 <div class="page-content">
     
     <!-- BEGIN ABOUT SECTION -->
-    <section id="about">
+    <section id="project">
         <!-- Services BEGIN -->
         <div class="container service-bg">
             <div class="row">
@@ -144,7 +138,7 @@
     <!-- END ABOUT SECTION -->
 
     <!-- BEGIN FEATURES SECTION -->
-    <section id="features">
+    <section id="offices">
         <!-- Features BEGIN -->
         <div class="features-bg">
             <div class="container">
@@ -204,7 +198,7 @@
     <!-- END FEATURES SECTION -->
 
     <!-- BEGIN TEAM SECTION -->
-    <section id="team">
+    <section id="location">
         <!-- Team BEGIN -->
         <div class="team-bg parallax">
             <div class="container">
@@ -341,7 +335,7 @@
     <!-- END TEAM SECTION -->
 
     <!-- BEGIN CLIENTS SECTION -->
-    <section id="clients">
+    <section id="video">
         <div class="clients">
             <div class="clients-bg">
                 <div class="container">
@@ -479,7 +473,7 @@
     </section>
     <!-- END CLIENTS SECTION -->
 
-    <!-- BEGIN PORTFOLIO SECTION -->
+<!--     BEGIN PORTFOLIO SECTION 
     <section id="portfolio">
         <div class="portfolio">
             <div class="container">
@@ -508,7 +502,7 @@
                             </div>
                         </div>
                         <div class="col-md-7">
-                            <!-- Cube Portfolio -->
+                             Cube Portfolio 
                             <div id="grid-container" class="cbp-l-grid-agency">
                                 <div class="cbp-item ecommerce">
                                     <div class="cbp-caption">
@@ -572,13 +566,13 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- End Cube Portfolio -->
+                         End Cube Portfolio 
                     </div>
-                </div><!-- //end row -->
+                </div> //end row 
             </div>
         </div>
     </section>
-    <!-- END PORTFOLIO SECTION -->
+     END PORTFOLIO SECTION -->
 
     <!-- BEGIN CONTACT SECTION -->
     <section id="contact">
