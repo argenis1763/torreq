@@ -12,7 +12,7 @@
 
                         <div class="caption lfb tp-resizeme"
                              data-x="center"
-                             data-y="center" 
+                             data-y="-100" 
                              data-hoffset="0"
                              data-speed="900" 
                              data-start="1000"
@@ -21,7 +21,7 @@
                         </div>
                         <div class="caption lft tp-resizeme"
                              data-x="center"
-                             data-y="center"
+                             data-y="-90"
                              data-hoffset="0" 
                              data-speed="900"
                              data-start="2000"
@@ -30,7 +30,7 @@
                         </div>
                         <div class="caption lft tp-resizeme"
                              data-x="center"
-                             data-y="bottom"
+                             data-y="550"
                              data-hoffset="0" 
                              data-speed="900" 
                              data-start="2500" 
@@ -81,7 +81,7 @@
                         <a href="#video">VIDEO</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#contact">Contact</a>
+                        <a href="#contact">CONTACTO</a>
                     </li>
                 </ul>
             </div>
