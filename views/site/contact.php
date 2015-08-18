@@ -4,8 +4,8 @@
         <div class="row">
             <div class="col-sm-6">
                 <div class="heading-left-light">
-                    <h2>Say hello to Metronic</h2>
-                    <p>To try the most advanced business platform <br> for mobile and desktop</p>
+                    <h2>Lorem Ipsum</h2>
+                    <p>Sit amet, consectetuer adipiscing elit <br> Aenean commodo ligula eget dolor. Aenean massa</p>
                 </div>
             </div>
             <div class="col-sm-6">
@@ -32,7 +32,7 @@
 <!-- Footer Coypright -->
 <div class="footer-copyright">
     <div class="container">
-        <h3>Metronic</h3>
+        <h3>Torre q</h3>
         <ul class="copyright-socials">
             <li><a href="#"><i class="fa fa-twitter"></i></a></li>
             <li><a href="#"><i class="fa fa-facebook"></i></a></li>

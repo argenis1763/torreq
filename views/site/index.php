@@ -87,9 +87,6 @@
                         <a href="#portfolio">Portfolio</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#pricing">Pricing</a>
-                    </li>
-                    <li class="page-scroll">
                         <a href="#contact">Contact</a>
                     </li>
                 </ul>
@@ -114,7 +111,7 @@
                                 <img src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/widgets/icon1.png" alt="">
                             </div>
                         </div>
-                        <h2>Metronic is time saver</h2>
+                        <h2>Aliquam Lorem</h2>
                         <p>Lorem ipsum dolor consetuer <br> erat votpat dolore</p>
                     </div>
                 </div>
@@ -125,7 +122,7 @@
                                 <img src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/widgets/icon2.png" alt="">
                             </div>
                         </div>
-                        <h2>Created for all type Devices</h2>
+                        <h2>Curabitur Ullamcorper</h2>
                         <p>Lorem ipsum dolor consetuer <br> erat votpat dolore</p>
                     </div>
                 </div>
@@ -136,7 +133,7 @@
                                 <img src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/widgets/icon3.png" alt="">
                             </div>
                         </div>
-                        <h2>Great individual Design</h2>
+                        <h2>Etiam Ultricies</h2>
                         <p>Lorem ipsum dolor consetuer <br> erat votpat dolore</p>
                     </div>
                 </div>
@@ -152,8 +149,8 @@
         <div class="features-bg">
             <div class="container">
                 <div class="heading">
-                    <h2><strong>Metronics</strong> Main Features</h2>
-                    <p>To try the most advanced business</p>
+                    <h2><strong>Lorem ipsum</strong> Nonuy Nibh</h2>
+                    <p>Maecenas tempus, tellus eget</p>
                 </div><!-- //end heading -->
 
                 <!-- Features -->
@@ -162,7 +159,7 @@
                         <div class="features">
                             <img src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/widgets/screen1.png" alt="">
                             <div class="features-in">
-                                <h3><a href="#">Full sass support</a></h3>
+                                <h3><a href="#">Lorem ipsum suitem</a></h3>
                                 <p>Lorem niam ipsum dolor sit ammet adipiscing et suitem elit et nonuy nibh elit niam dolor</p>
                             </div>
                         </div>
@@ -171,7 +168,7 @@
                         <div class="features">
                             <img src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/widgets/screen2.png" alt="">
                             <div class="features-in">
-                                <h3><a href="#">Awesome design</a></h3>
+                                <h3><a href="#">Lorem ipsum ammet</a></h3>
                                 <p>Lorem niam ipsum dolor sit ammet adipiscing et suitem elit et nonuy nibh elit niam dolor</p>
                             </div>
                         </div>
@@ -182,7 +179,7 @@
                         <div class="features">
                             <img src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/widgets/screen3.png" alt="">
                             <div class="features-in">
-                                <h3><a href="#">Built with bootstrap</a></h3>
+                                <h3><a href="#">Lorem ipsum adipiscing</a></h3>
                                 <p>Lorem niam ipsum dolor sit ammet adipiscing et suitem elit et nonuy nibh elit niam dolor</p>
                             </div>
                         </div>
@@ -191,7 +188,7 @@
                         <div class="features">
                             <img src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/widgets/screen4.png" alt="">
                             <div class="features-in">
-                                <h3><a href="#">AngularJS support</a></h3>
+                                <h3><a href="#">Lorem ipsum support</a></h3>
                                 <p>Lorem niam ipsum dolor sit ammet adipiscing et suitem elit et nonuy nibh elit niam dolor</p>
                             </div>
                         </div>
@@ -199,7 +196,7 @@
                 </div><!-- //end row -->
                 <!-- End Features -->
 
-                <center><a href="#" class="btn-brd-danger">Try it for free</a></center>
+                <center><a href="#" class="btn-brd-danger">suitem</a></center>
             </div>
         </div>
         <!-- Features END -->
@@ -326,10 +323,10 @@
                     </div>
                     <div class="col-md-4">
                         <div class="team-about">
-                            <h3>Built with bootstrap</h3>
+                            <h3>Lorem ipsum</h3>
                             <p>Lorem niam ipsum dolor sit ammet adipiscing et suitem elit et nonuy nibh elit niam dolor suit elit amet nonummy nibh dolore onec placerat interdum purus.</p>
                             <div class="margin-bottom-40"></div>
-                            <h3>AngularJS Support</h3>
+                            <h3>Lorem ipsum</h3>
                             <p>Etiam aliquam ex pulvinar odio dictum commodo. Nulla dui risus, egestas sit amet nisi et, eleifend cursus odio.</p>
                             <div class="margin-bottom-40"></div>
                             <h3>and WOW Features</h3>
@@ -487,7 +484,7 @@
         <div class="portfolio">
             <div class="container">
                 <div class="heading">
-                    <h2>Theme <strong>Portfolio</strong></h2>
+                    <h2><strong>Portfolio</strong></h2>
                 </div>
 
                 <div class="cube-portfolio">
@@ -582,66 +579,6 @@
         </div>
     </section>
     <!-- END PORTFOLIO SECTION -->
-
-    <!-- BEGIN PRICING SECTION -->
-    <section id="pricing">
-        <div class="pricing-bg">
-            <div class="container">
-                <div class="heading">
-                    <h2>Theme <strong>Pricing</strong></h2>
-                    <P>To try the most advanced business platform <br> for mobile and desktop</P>
-                </div><!-- //end heading -->
-
-                <!-- Pricing -->
-                <div class="row no-space-row">
-                    <div class="col-md-4">
-                        <div class="pricing no-right-brd">
-                            <img src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/widgets/icon4.png" alt="">
-                            <h4>Starter Plan</h4>
-                            <span>$99 / Month</span>
-                            <ul class="pricing-features">
-                                <li>1000 Copies</li>
-                                <li>Unlimited Data</li>
-                                <li>Unlimited Users</li>
-                                <li>Forst 7 days free</li>
-                            </ul>
-                            <button type="button" class="btn-brd-primary">Purchase</button>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="pricing pricing-red">
-                            <img src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/widgets/icon5.png" alt="">
-                            <h4>Business Plan</h4>
-                            <span>$99 / Month</span>
-                            <ul class="pricing-features">
-                                <li>1000 Copies</li>
-                                <li>Unlimited Data</li>
-                                <li>Unlimited Users</li>
-                                <li>Forst 7 days free</li>
-                            </ul>
-                            <button type="button" class="btn-brd-white">Purchase</button>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="pricing no-left-brd">
-                            <img src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/widgets/icon6.png" alt="">
-                            <h4>Expert Plan</h4>
-                            <span>$199 / Month</span>
-                            <ul class="pricing-features">
-                                <li>1000 Copies</li>
-                                <li>Unlimited Data</li>
-                                <li>Unlimited Users</li>
-                                <li>Forst 7 days free</li>
-                            </ul>
-                            <button type="button" class="btn-brd-primary">Purchase</button>
-                        </div>
-                    </div>
-                </div><!-- //end row -->
-                <!-- End Pricing -->
-            </div>
-        </div>
-    </section>
-    <!-- END PRICING SECTION -->
 
     <!-- BEGIN CONTACT SECTION -->
     <section id="contact">
