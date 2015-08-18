@@ -210,61 +210,178 @@
 
     <!-- BEGIN FEATURES SECTION -->
     <section id="offices">
-        <!-- Features BEGIN -->
-        <div class="features-bg">
-            <div class="container">
-                <div class="heading">
-                    <h2><strong>Lorem ipsum</strong> Nonuy Nibh</h2>
-                    <p>Maecenas tempus, tellus eget</p>
-                </div><!-- //end heading -->
+        <!-- Slider BEGIN -->
+        <div class="page-slider">
+            <div class="fullwidthbanner-container revolution-slider">
+                <div class="banner">
+                    <ul id="revolutionul2">
+                        <!-- THE NEW SLIDE -->
+                        <li data-transition="fade" data-slotamount="8" data-masterspeed="500" data-delay="9400" data-thumb="">
+                            <!-- THE MAIN IMAGE IN THE FIRST SLIDE -->
+                            <img src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/bg/pag_03/office_A/bg_slider9.jpg" alt="">
 
-                <!-- Features -->
-                <div class="row margin-bottom-70">
-                    <div class="col-md-6 md-margin-bottom-70">
-                        <div class="features">
-                            <img src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/widgets/screen1.png" alt="">
-                            <div class="features-in">
-                                <h3><a href="#">Lorem ipsum suitem</a></h3>
-                                <p>Lorem niam ipsum dolor sit ammet adipiscing et suitem elit et nonuy nibh elit niam dolor</p>
+                            <div class="caption lfb tp-resizeme"
+                                 data-x="center"
+                                 data-y="center" 
+                                 data-hoffset="0"
+                                 data-speed="900" 
+                                 data-start="1000"
+                                 data-easing="easeOutExpo">
+                                <img style="width: 100%;" src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/bg/pag_03/office_A/bg_slider10.png" alt="Image 1">
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="features">
-                            <img src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/widgets/screen2.png" alt="">
-                            <div class="features-in">
-                                <h3><a href="#">Lorem ipsum ammet</a></h3>
-                                <p>Lorem niam ipsum dolor sit ammet adipiscing et suitem elit et nonuy nibh elit niam dolor</p>
+                            <div class="caption lft tp-resizeme"
+                                 data-x="center"
+                                 data-y="center"
+                                 data-hoffset="0" 
+                                 data-speed="900"
+                                 data-start="2000"
+                                 data-easing="easeOutExpo">
+                                <img style="width: 100%;" src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/bg/pag_03/office_A/bg_slider11.png" alt="Image 2">
                             </div>
-                        </div>
-                    </div>
-                </div><!-- //end row -->
-                <div class="row margin-bottom-80">
-                    <div class="col-md-6 md-margin-bottom-70">
-                        <div class="features">
-                            <img src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/widgets/screen3.png" alt="">
-                            <div class="features-in">
-                                <h3><a href="#">Lorem ipsum adipiscing</a></h3>
-                                <p>Lorem niam ipsum dolor sit ammet adipiscing et suitem elit et nonuy nibh elit niam dolor</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="features">
-                            <img src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/widgets/screen4.png" alt="">
-                            <div class="features-in">
-                                <h3><a href="#">Lorem ipsum support</a></h3>
-                                <p>Lorem niam ipsum dolor sit ammet adipiscing et suitem elit et nonuy nibh elit niam dolor</p>
-                            </div>
-                        </div>
-                    </div>
-                </div><!-- //end row -->
-                <!-- End Features -->
+                        </li>
+                        <li data-transition="fade" data-slotamount="8" data-masterspeed="500" data-delay="9400" data-thumb="">
+                            <!-- THE MAIN IMAGE IN THE FIRST SLIDE -->
+                            <img src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/bg/pag_03/office_A/bg_slider9.jpg" alt="">
 
-                <center><a href="#" class="btn-brd-danger">suitem</a></center>
+                            <div class="caption lfb tp-resizeme"
+                                 data-x="center"
+                                 data-y="center" 
+                                 data-hoffset="0"
+                                 data-speed="900" 
+                                 data-start="1000"
+                                 data-easing="easeOutExpo">
+                                <img style="width: 100%;" src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/bg/pag_03/office_A/bg_slider10.png" alt="Image 3">
+                            </div>
+                            <div class="caption lft tp-resizeme"
+                                 data-x="center"
+                                 data-y="center"
+                                 data-hoffset="0" 
+                                 data-speed="900"
+                                 data-start="2000"
+                                 data-easing="easeOutExpo">
+                                <img style="width: 100%;" src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/bg/pag_03/office_A/bg_slider12.png" alt="Image 4">
+                            </div>
+                        </li>                      
+                        <li data-transition="fade" data-slotamount="8" data-masterspeed="500" data-delay="9400" data-thumb="">
+                            <!-- THE MAIN IMAGE IN THE FIRST SLIDE -->
+                            <img src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/bg/pag_03/office_A/bg_slider9.jpg" alt="">
+
+                            <div class="caption lfb tp-resizeme"
+                                 data-x="center"
+                                 data-y="center" 
+                                 data-hoffset="0"
+                                 data-speed="900" 
+                                 data-start="1000"
+                                 data-easing="easeOutExpo">
+                                <img style="width: 100%;" src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/bg/pag_03/office_A/bg_slider10.png" alt="Image 5">
+                            </div>
+                            <div class="caption lft tp-resizeme"
+                                 data-x="center"
+                                 data-y="center"
+                                 data-hoffset="0" 
+                                 data-speed="900"
+                                 data-start="2000"
+                                 data-easing="easeOutExpo">
+                                <img style="width: 100%;" src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/bg/pag_03/office_A/bg_slider13.png" alt="Image 6">
+                            </div>
+                        </li>                      
+                        <li data-transition="fade" data-slotamount="8" data-masterspeed="500" data-delay="9400" data-thumb="">
+                            <!-- THE MAIN IMAGE IN THE FIRST SLIDE -->
+                            <img src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/bg/pag_03/office_A/bg_slider9.jpg" alt="">
+
+                            <div class="caption lfb tp-resizeme"
+                                 data-x="center"
+                                 data-y="center" 
+                                 data-hoffset="0"
+                                 data-speed="900" 
+                                 data-start="1000"
+                                 data-easing="easeOutExpo">
+                                <img style="width: 100%;" src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/bg/pag_03/office_A/bg_slider10.png" alt="Image 7">
+                            </div>
+                            <div class="caption lft tp-resizeme"
+                                 data-x="center"
+                                 data-y="center"
+                                 data-hoffset="0" 
+                                 data-speed="900"
+                                 data-start="2000"
+                                 data-easing="easeOutExpo">
+                                <img style="width: 100%;" src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/bg/pag_03/office_A/bg_slider14.png" alt="Image 8">
+                            </div>
+                        </li>                      
+                        <li data-transition="fade" data-slotamount="8" data-masterspeed="500" data-delay="9400" data-thumb="">
+                            <!-- THE MAIN IMAGE IN THE FIRST SLIDE -->
+                            <img src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/bg/pag_03/office_A/bg_slider9.jpg" alt="">
+
+                            <div class="caption lfb tp-resizeme"
+                                 data-x="center"
+                                 data-y="center" 
+                                 data-hoffset="0"
+                                 data-speed="900" 
+                                 data-start="1000"
+                                 data-easing="easeOutExpo">
+                                <img style="width: 100%;" src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/bg/pag_03/office_A/bg_slider10.png" alt="Image 9">
+                            </div>
+                            <div class="caption lft tp-resizeme"
+                                 data-x="center"
+                                 data-y="center"
+                                 data-hoffset="0" 
+                                 data-speed="900"
+                                 data-start="2000"
+                                 data-easing="easeOutExpo">
+                                <img style="width: 100%;" src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/bg/pag_03/office_A/bg_slider15.png" alt="Image 10">
+                            </div>
+                        </li>                      
+                        <li data-transition="fade" data-slotamount="8" data-masterspeed="500" data-delay="9400" data-thumb="">
+                            <!-- THE MAIN IMAGE IN THE FIRST SLIDE -->
+                            <img src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/bg/pag_03/office_A/bg_slider9.jpg" alt="">
+
+                            <div class="caption lfb tp-resizeme"
+                                 data-x="center"
+                                 data-y="center" 
+                                 data-hoffset="0"
+                                 data-speed="900" 
+                                 data-start="1000"
+                                 data-easing="easeOutExpo">
+                                <img style="width: 100%;" src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/bg/pag_03/office_A/bg_slider10.png" alt="Image 11">
+                            </div>
+                            <div class="caption lft tp-resizeme"
+                                 data-x="center"
+                                 data-y="center"
+                                 data-hoffset="0" 
+                                 data-speed="900"
+                                 data-start="2000"
+                                 data-easing="easeOutExpo">
+                                <img style="width: 100%;" src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/bg/pag_03/office_A/bg_slider16.png" alt="Image 12">
+                            </div>
+                        </li>                      
+                        <li data-transition="fade" data-slotamount="8" data-masterspeed="500" data-delay="9400" data-thumb="">
+                            <!-- THE MAIN IMAGE IN THE FIRST SLIDE -->
+                            <img src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/bg/pag_03/office_A/bg_slider9.jpg" alt="">
+
+                            <div class="caption lfb tp-resizeme"
+                                 data-x="center"
+                                 data-y="center" 
+                                 data-hoffset="0"
+                                 data-speed="900" 
+                                 data-start="1000"
+                                 data-easing="easeOutExpo">
+                                <img style="width: 100%;" src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/bg/pag_03/office_A/bg_slider10.png" alt="Image 13">
+                            </div>
+                            <div class="caption lft tp-resizeme"
+                                 data-x="center"
+                                 data-y="center"
+                                 data-hoffset="0" 
+                                 data-speed="900"
+                                 data-start="2000"
+                                 data-easing="easeOutExpo">
+                                <img style="width: 100%;" src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/bg/pag_03/office_A/bg_slider17.png" alt="Image 14">
+                            </div>
+                        </li>                      
+                    </ul>
+                </div>
             </div>
         </div>
-        <!-- Features END -->
+        <!-- Services END -->
     </section>
     <!-- END FEATURES SECTION -->
 
