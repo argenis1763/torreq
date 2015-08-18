@@ -40,7 +40,7 @@
             <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
             <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
         </ul>
-        <P>Designed with love by KeenThemes</P>
+        <P>Copyrigth © 2015 - Torre Q</P>
     </div>
 </div>
 <!-- End Footer Coypright -->
