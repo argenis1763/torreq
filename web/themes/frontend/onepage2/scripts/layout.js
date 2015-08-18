@@ -23,7 +23,7 @@ var Layout = function () {
     var handleHeaderFixed = function () {
         //jQuery to collapse the navbar on scroll
         $(window).scroll(function() {
-            if ($(".navbar").offset().top > 50) {
+            if ($(".navbar").offset().top > 60) {
                 $(".navbar").addClass("top-nav-collapse");
             } else {
                 $(".navbar").removeClass("top-nav-collapse");

@@ -92,44 +92,115 @@
 <!-- Header END -->
 
 <div class="page-content">
-    
     <!-- BEGIN ABOUT SECTION -->
     <section id="project">
-        <!-- Services BEGIN -->
-        <div class="container service-bg">
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="services sm-margin-bottom-100">
-                        <div class="services-wrap">
-                            <div class="service-body">
-                                <img src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/widgets/icon1.png" alt="">
+        <!-- Slider BEGIN -->
+        <div class="page-slider">
+            <div class="fullwidthbanner-container revolution-slider">
+                <div class="banner">
+                    <ul id="revolutionul">
+                        <!-- THE NEW SLIDE -->
+                        <li data-transition="" data-slotamount="8" data-masterspeed="500" data-delay="9400" data-thumb="">
+                            <!-- THE MAIN IMAGE IN THE FIRST SLIDE -->
+                            <img src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/bg/pag_02/bg_slider6.jpg" alt="">
+
+                            <div class="caption lfb tp-resizeme"
+                                 data-x="center"
+                                 data-y="bottom" 
+                                 data-hoffset="0"
+                                 data-speed="900" 
+                                 data-start="1000"
+                                 data-easing="easeOutExpo">
+                                <img style="width: 100%;" src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/bg/pag_02/bg_slider2.png" alt="Image 3">
                             </div>
-                        </div>
-                        <h2>Aliquam Lorem</h2>
-                        <p>Lorem ipsum dolor consetuer <br> erat votpat dolore</p>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="services sm-margin-bottom-100">
-                        <div class="services-wrap">
-                            <div class="service-body">
-                                <img src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/widgets/icon2.png" alt="">
+                            <div class="caption lft tp-resizeme"
+                                 data-x="-80"
+                                 data-y="bottom"
+                                 data-hoffset="0" 
+                                 data-speed="900"
+                                 data-start="2000"
+                                 data-easing="easeOutExpo">
+                                <img style="width: 100%;" src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/bg/pag_02/bg_slider3.png" alt="Image 4">
                             </div>
-                        </div>
-                        <h2>Curabitur Ullamcorper</h2>
-                        <p>Lorem ipsum dolor consetuer <br> erat votpat dolore</p>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="services">
-                        <div class="services-wrap">
-                            <div class="service-body">
-                                <img src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/widgets/icon3.png" alt="">
+                            <div class="caption lft tp-resizeme"
+                                 data-x="center"
+                                 data-y="bottom"
+                                 data-hoffset="20" 
+                                 data-speed="900" 
+                                 data-start="2500" 
+                                 data-easing="easeOutExpo">
+                                <img style="width: 100%;" src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/bg/pag_02/bg_slider4.png" alt="Image 4">
+                            </div> 
+                            <div class="caption lft tp-resizeme"
+                                 data-x="center"
+                                 data-y="bottom"
+                                 data-hoffset="20" 
+                                 data-speed="900" 
+                                 data-start="3000" 
+                                 data-easing="easeOutExpo">
+                                <img style="width: 100%;" src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/bg/pag_02/bg_slider5.png" alt="Image 4">
+                            </div> 
+                        </li>
+                        <li data-transition="fade" data-slotamount="8" data-masterspeed="500" data-delay="9400" data-thumb="">
+                            <!-- THE MAIN IMAGE IN THE FIRST SLIDE -->
+                            <img src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/bg/pag_02/bg_slider7.jpg" alt="">
+
+                            <div class="caption lfb tp-resizeme"
+                                 data-x="center"
+                                 data-y="bottom" 
+                                 data-hoffset="0"
+                                 data-speed="900" 
+                                 data-start="1000"
+                                 data-easing="easeOutExpo">
+                                <img style="width: 100%;" src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/bg/pag_02/bg_slider2.png" alt="Image 3">
                             </div>
-                        </div>
-                        <h2>Etiam Ultricies</h2>
-                        <p>Lorem ipsum dolor consetuer <br> erat votpat dolore</p>
-                    </div>
+                            <div class="caption lft tp-resizeme"
+                                 data-x="-80"
+                                 data-y="bottom"
+                                 data-hoffset="0" 
+                                 data-speed="900"
+                                 data-start="2000"
+                                 data-easing="easeOutExpo">
+                                <img style="width: 100%;" src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/bg/pag_02/bg_slider3.png" alt="Image 4">
+                            </div>
+                            <div class="caption lft tp-resizeme"
+                                 data-x="center"
+                                 data-y="bottom"
+                                 data-hoffset="20" 
+                                 data-speed="900" 
+                                 data-start="2500" 
+                                 data-easing="easeOutExpo">
+                                <img style="width: 100%;" src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/bg/pag_02/bg_slider4.png" alt="Image 4">
+                            </div> 
+                            <div class="caption lft tp-resizeme"
+                                 data-x="center"
+                                 data-y="bottom"
+                                 data-hoffset="20" 
+                                 data-speed="900" 
+                                 data-start="3000" 
+                                 data-easing="easeOutExpo">
+                                <img style="width: 100%;" src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/bg/pag_02/bg_slider5.png" alt="Image 4">
+                            </div> 
+                            <div class="caption lft tp-resizeme"
+                                 data-x="center"
+                                 data-y="bottom"
+                                 data-hoffset="20" 
+                                 data-speed="900" 
+                                 data-start="3500" 
+                                 data-easing="easeOutExpo">
+                                <img style="width: 100%;" src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/bg/pag_02/bg_slider8.png" alt="Image 4">
+                            </div> 
+                            <div class="caption lft tp-resizeme"
+                                 data-x="center"
+                                 data-y="bottom"
+                                 data-hoffset="20" 
+                                 data-speed="900" 
+                                 data-start="4000" 
+                                 data-easing="easeOutExpo">
+                                <img style="width: 100%;" src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/bg/pag_02/bg_slider9.png" alt="Image 4">
+                            </div> 
+                        </li>                        
+                    </ul>
                 </div>
             </div>
         </div>
@@ -473,106 +544,106 @@
     </section>
     <!-- END CLIENTS SECTION -->
 
-<!--     BEGIN PORTFOLIO SECTION 
-    <section id="portfolio">
-        <div class="portfolio">
-            <div class="container">
-                <div class="heading">
-                    <h2><strong>Portfolio</strong></h2>
+    <!--     BEGIN PORTFOLIO SECTION 
+        <section id="portfolio">
+            <div class="portfolio">
+                <div class="container">
+                    <div class="heading">
+                        <h2><strong>Portfolio</strong></h2>
+                    </div>
+    
+                    <div class="cube-portfolio">
+                        <div id="filters-container" class="cbp-l-filters-alignCenter">
+                            <div data-filter="*" class="cbp-filter-item-active cbp-filter-item"> All Stuff </div>
+                            <div data-filter=".ecommerce" class="cbp-filter-item"> Ecommerce </div>
+                            <div data-filter=".admin" class="cbp-filter-item"> Admin Theme </div>
+                            <div data-filter=".corporate" class="cbp-filter-item"> Corporate </div>
+                            <div data-filter=".retail" class="cbp-filter-item"> Retail </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-5 md-margin-bottom-50">
+                                <div class="heading-left">
+                                    <h2>
+                                        <strong>Our Work</strong>
+                                        <br>
+                                        Lorem ipsum dolor
+                                    </h2>
+                                    <p>Lorem ipsum dolor sit amet consectetuer ipsum elit sed diam nonummy et euismod tincidunt ut laoreet dolore elit magna aliquam erat et ipsum volutpat magna aliquam  sed diam dolore lorem ipsum dolor sit amet consectetuer ipsum.</p><br>
+                                    <a href="#" class="btn-brd-primary">Read More</a>
+                                </div>
+                            </div>
+                            <div class="col-md-7">
+                                 Cube Portfolio 
+                                <div id="grid-container" class="cbp-l-grid-agency">
+                                    <div class="cbp-item ecommerce">
+                                        <div class="cbp-caption">
+                                            <div class="cbp-caption-hover-gradient">
+                                                <img src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/portfolio/01.jpg" alt="">
+                                            </div>
+                                            <div class="cbp-caption-activeWrap">
+                                                <div class="cbp-l-caption-alignCenter">
+                                                    <div class="cbp-l-caption-body portfolio-icons">
+                                                        <a href="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/portfolio/01.jpg" class="cbp-lightbox" data-title="Title"><i class="fa fa-search"></i></a>
+                                                        <a href="#"><i class="fa fa-file"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cbp-item admin">
+                                        <div class="cbp-caption">
+                                            <div class="cbp-caption-hover-gradient">
+                                                <img src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/portfolio/02.jpg" alt="">
+                                            </div>
+                                            <div class="cbp-caption-activeWrap">
+                                                <div class="cbp-l-caption-alignCenter">
+                                                    <div class="cbp-l-caption-body portfolio-icons">
+                                                        <a href="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/portfolio/02.jpg" class="cbp-lightbox" data-title="Title"><i class="fa fa-search"></i></a>
+                                                        <a href="#"><i class="fa fa-file"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cbp-item corporate">
+                                        <div class="cbp-caption">
+                                            <div class="cbp-caption-hover-gradient">
+                                                <img src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/portfolio/03.jpg" alt="">
+                                            </div>
+                                            <div class="cbp-caption-activeWrap">
+                                                <div class="cbp-l-caption-alignCenter">
+                                                    <div class="cbp-l-caption-body portfolio-icons">
+                                                        <a href="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/portfolio/03.jpg" class="cbp-lightbox" data-title="Title"><i class="fa fa-search"></i></a>
+                                                        <a href="#"><i class="fa fa-file"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cbp-item retail">
+                                        <div class="cbp-caption">
+                                            <div class="cbp-caption-hover-gradient">
+                                                <img src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/portfolio/07.jpg" alt="">
+                                            </div>
+                                            <div class="cbp-caption-activeWrap">
+                                                <div class="cbp-l-caption-alignCenter">
+                                                    <div class="cbp-l-caption-body portfolio-icons">
+                                                        <a href="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/portfolio/04.jpg" class="cbp-lightbox" data-title="Title"><i class="fa fa-search"></i></a>
+                                                        <a href="#"><i class="fa fa-file"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                             End Cube Portfolio 
+                        </div>
+                    </div> //end row 
                 </div>
-
-                <div class="cube-portfolio">
-                    <div id="filters-container" class="cbp-l-filters-alignCenter">
-                        <div data-filter="*" class="cbp-filter-item-active cbp-filter-item"> All Stuff </div>
-                        <div data-filter=".ecommerce" class="cbp-filter-item"> Ecommerce </div>
-                        <div data-filter=".admin" class="cbp-filter-item"> Admin Theme </div>
-                        <div data-filter=".corporate" class="cbp-filter-item"> Corporate </div>
-                        <div data-filter=".retail" class="cbp-filter-item"> Retail </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-5 md-margin-bottom-50">
-                            <div class="heading-left">
-                                <h2>
-                                    <strong>Our Work</strong>
-                                    <br>
-                                    Lorem ipsum dolor
-                                </h2>
-                                <p>Lorem ipsum dolor sit amet consectetuer ipsum elit sed diam nonummy et euismod tincidunt ut laoreet dolore elit magna aliquam erat et ipsum volutpat magna aliquam  sed diam dolore lorem ipsum dolor sit amet consectetuer ipsum.</p><br>
-                                <a href="#" class="btn-brd-primary">Read More</a>
-                            </div>
-                        </div>
-                        <div class="col-md-7">
-                             Cube Portfolio 
-                            <div id="grid-container" class="cbp-l-grid-agency">
-                                <div class="cbp-item ecommerce">
-                                    <div class="cbp-caption">
-                                        <div class="cbp-caption-hover-gradient">
-                                            <img src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/portfolio/01.jpg" alt="">
-                                        </div>
-                                        <div class="cbp-caption-activeWrap">
-                                            <div class="cbp-l-caption-alignCenter">
-                                                <div class="cbp-l-caption-body portfolio-icons">
-                                                    <a href="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/portfolio/01.jpg" class="cbp-lightbox" data-title="Title"><i class="fa fa-search"></i></a>
-                                                    <a href="#"><i class="fa fa-file"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="cbp-item admin">
-                                    <div class="cbp-caption">
-                                        <div class="cbp-caption-hover-gradient">
-                                            <img src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/portfolio/02.jpg" alt="">
-                                        </div>
-                                        <div class="cbp-caption-activeWrap">
-                                            <div class="cbp-l-caption-alignCenter">
-                                                <div class="cbp-l-caption-body portfolio-icons">
-                                                    <a href="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/portfolio/02.jpg" class="cbp-lightbox" data-title="Title"><i class="fa fa-search"></i></a>
-                                                    <a href="#"><i class="fa fa-file"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="cbp-item corporate">
-                                    <div class="cbp-caption">
-                                        <div class="cbp-caption-hover-gradient">
-                                            <img src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/portfolio/03.jpg" alt="">
-                                        </div>
-                                        <div class="cbp-caption-activeWrap">
-                                            <div class="cbp-l-caption-alignCenter">
-                                                <div class="cbp-l-caption-body portfolio-icons">
-                                                    <a href="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/portfolio/03.jpg" class="cbp-lightbox" data-title="Title"><i class="fa fa-search"></i></a>
-                                                    <a href="#"><i class="fa fa-file"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="cbp-item retail">
-                                    <div class="cbp-caption">
-                                        <div class="cbp-caption-hover-gradient">
-                                            <img src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/portfolio/07.jpg" alt="">
-                                        </div>
-                                        <div class="cbp-caption-activeWrap">
-                                            <div class="cbp-l-caption-alignCenter">
-                                                <div class="cbp-l-caption-body portfolio-icons">
-                                                    <a href="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/portfolio/04.jpg" class="cbp-lightbox" data-title="Title"><i class="fa fa-search"></i></a>
-                                                    <a href="#"><i class="fa fa-file"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                         End Cube Portfolio 
-                    </div>
-                </div> //end row 
             </div>
-        </div>
-    </section>
-     END PORTFOLIO SECTION -->
+        </section>
+         END PORTFOLIO SECTION -->
 
     <!-- BEGIN CONTACT SECTION -->
     <section id="contact">
