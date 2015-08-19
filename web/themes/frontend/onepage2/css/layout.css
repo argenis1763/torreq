@@ -1784,7 +1784,8 @@ a:focus {
 	[FOOTER]
 ----------------------------------------------------*/
 .footer {
-  background: #2c3a46;
+  //background: #2c3a46;
+  background-image: url(../img/bg/pag_06/bg_contact.jpg);
   padding: 100px 0 100px 0;
 }
 
@@ -1794,7 +1795,7 @@ a:focus {
 .footer-copyright {
   padding: 50px 0;
   text-align: center;
-  background: #25303a;
+  background: #001D3B;
 }
 .footer-copyright h3 {
   font-size: 30px;

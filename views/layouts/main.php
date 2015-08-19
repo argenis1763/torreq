@@ -32,6 +32,7 @@ AppAsset::register($this);
                 RevosliderInit.initRevoSlider();
                 Layout.initFixHeaderWithPreHeader(); /* Switch On Header Fixing (only if you have pre-header) */
                 Layout.initNavScrolling();
+                ContactUs.init();
             });
         </script>        
     </body>

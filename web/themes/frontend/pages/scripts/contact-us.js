@@ -7,15 +7,15 @@ var ContactUs = function () {
 			$(document).ready(function(){
 			  map = new GMaps({
 				div: '#map',
-	            lat: -13.004333,
-				lng: -38.494333,
+	            lat: 10.456324,
+				lng: -66.830684,
 			  });
 			   var marker = map.addMarker({
-		            lat: -13.004333,
-					lng: -38.494333,
-		            title: 'Loop, Inc.',
+		            lat:  10.456324, 
+					lng: -66.830684,
+		            title: 'Dirección.',
 		            infoWindow: {
-		                content: "<b>Loop, Inc.</b> 795 Park Ave, Suite 120<br>San Francisco, CA 94107"
+		                content: "<p>Situado en la <b>Calle Alto Hatillo</b>,</p><p> Urbanización Los Naranjos.<b> Caracas, Venezuela.</b></p>"
 		            }
 		        });
 

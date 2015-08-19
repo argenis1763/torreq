@@ -32,14 +32,8 @@
 <!-- Footer Coypright -->
 <div class="footer-copyright">
     <div class="container">
-        <h3>Torre q</h3>
-        <ul class="copyright-socials">
-            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-            <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-        </ul>
+        <img style="width: 10%;" src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/bg/pag_06/bg_footer1.png" alt="">
+        <div class="footer-logo"><img style="width: 13%;" src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/bg/pag_06/bg_footer2.png" alt=""></div>
         <P>Copyrigth © 2015 - Torre Q</P>
     </div>
 </div>

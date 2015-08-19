@@ -43,6 +43,9 @@ class AppAsset extends AssetBundle
         'themes/frontend/onepage2/scripts/portfolio.js',
         'themes/global/plugins/slider-revolution-slider/rs-plugin/js/jquery.themepunch.revolution.min.js',
         'themes/global/plugins/slider-revolution-slider/rs-plugin/js/jquery.themepunch.tools.min.js',
+        'http://maps.google.com/maps/api/js?sensor=true',
+        'themes/global/plugins/gmaps/gmaps.js',
+        'themes/frontend/pages/scripts/contact-us.js',
         'themes/frontend/onepage2/scripts/revo-ini.js',
         'themes/frontend/onepage2/scripts/layout.js',
         'themes/frontend/layout/scripts/back-to-top.js'
