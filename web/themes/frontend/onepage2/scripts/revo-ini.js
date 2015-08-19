@@ -15,12 +15,13 @@ var RevosliderInit = function () {
                 delay: 1000,
                 startwidth: 1170,
                 startheight: height,
-                navigationArrows: "none",
+                navigationArrows: "verticalcentered",
                 fullWidth: "on",
                 fullScreen: "off",
                 touchenabled:"on",                      // Enable Swipe Function : on/off
                 onHoverStop: "on",                      // Stop Banner Timet at Hover on Slide on/off
-                fullScreenOffsetContainer: ""
+                fullScreenOffsetContainer: "",
+                navigationType: "none",
             });
         }
     };

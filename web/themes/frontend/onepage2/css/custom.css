@@ -10,12 +10,12 @@ and open the template in the editor.
 
 .location{
     background-image: url(../img/bg/pag_04/bg_contact.jpg);
+    width: 100%;
 }
 
 .video{
     background-image: url(../img/bg/pag_05/bg_video.jpg);
-    background-repeat: no-repeat;
-    height: 400px
+    width: 100%;
 }
 
 .font-transform-inherit {
