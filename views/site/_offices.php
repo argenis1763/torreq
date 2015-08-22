@@ -1,9 +1,9 @@
 <div class="page-slider">
     <div class="fullwidthbanner-container revolution-slider">
         <div class="banner">
-            <ul id="revolutionul">
+            <ul id="revolutionul1">
                 <!-- THE NEW SLIDE -->
-                <li data-transition="fade" data-slotamount="8" data-masterspeed="500" data-delay="9400" data-thumb="">
+                <li class="gallery" data-transition="fade" data-slotamount="8" data-masterspeed="500" data-delay="9400" data-thumb="" data-link="javascript:void(0);">
                     <!-- THE MAIN IMAGE IN THE FIRST SLIDE -->
                     <img src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/bg/pag_03/office_A/bg_slider9.jpg" alt="">
 

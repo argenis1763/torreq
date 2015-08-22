@@ -47,6 +47,7 @@ class AppAsset extends AssetBundle
         'themes/global/plugins/gmaps/gmaps.js',
         'themes/frontend/pages/scripts/contact-us.js',
         'themes/frontend/onepage2/scripts/revo-ini.js',
+        'themes/frontend/onepage2/scripts/custom.js',
         'themes/frontend/onepage2/scripts/layout.js',
         'themes/frontend/layout/scripts/back-to-top.js'
     ];
