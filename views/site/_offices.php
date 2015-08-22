@@ -1,170 +1,27 @@
 <div class="page-slider">
-    <div class="fullwidthbanner-container revolution-slider">
-        <div class="banner">
-            <ul id="revolutionul1">
-                <!-- THE NEW SLIDE -->
-                <li class="gallery" data-transition="fade" data-slotamount="8" data-masterspeed="500" data-delay="9400" data-thumb="" data-link="javascript:void(0);">
-                    <!-- THE MAIN IMAGE IN THE FIRST SLIDE -->
-                    <img src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/bg/pag_03/office_A/bg_slider9.jpg" alt="">
-
-                    <div class="caption lfb tp-resizeme"
-                         data-x="center"
-                         data-y="center" 
-                         data-hoffset="0"
-                         data-speed="900" 
-                         data-start="1000"
-                         data-easing="easeOutExpo">
-                        <img style="width: 100%;" src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/bg/pag_03/office_A/bg_slider10.png" alt="Image 1">
-                    </div>
-                    <div class="caption lft tp-resizeme"
-                         data-x="center"
-                         data-y="center"
-                         data-hoffset="0" 
-                         data-speed="900"
-                         data-start="2000"
-                         data-easing="easeOutExpo">
-                        <img style="width: 100%;" src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/bg/pag_03/office_A/bg_slider11.png" alt="Image 2">
-                    </div>
-                </li>
-                <li data-transition="fade" data-slotamount="8" data-masterspeed="500" data-delay="9400" data-thumb="">
-                    <!-- THE MAIN IMAGE IN THE FIRST SLIDE -->
-                    <img src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/bg/pag_03/office_A/bg_slider9.jpg" alt="">
-
-                    <div class="caption lfb tp-resizeme"
-                         data-x="center"
-                         data-y="center" 
-                         data-hoffset="0"
-                         data-speed="900" 
-                         data-start="1000"
-                         data-easing="easeOutExpo">
-                        <img style="width: 100%;" src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/bg/pag_03/office_A/bg_slider10.png" alt="Image 3">
-                    </div>
-                    <div class="caption lft tp-resizeme"
-                         data-x="center"
-                         data-y="center"
-                         data-hoffset="0" 
-                         data-speed="900"
-                         data-start="2000"
-                         data-easing="easeOutExpo">
-                        <img style="width: 100%;" src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/bg/pag_03/office_A/bg_slider12.png" alt="Image 4">
-                    </div>
-                </li>                      
-                <li data-transition="fade" data-slotamount="8" data-masterspeed="500" data-delay="9400" data-thumb="">
-                    <!-- THE MAIN IMAGE IN THE FIRST SLIDE -->
-                    <img src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/bg/pag_03/office_A/bg_slider9.jpg" alt="">
-
-                    <div class="caption lfb tp-resizeme"
-                         data-x="center"
-                         data-y="center" 
-                         data-hoffset="0"
-                         data-speed="900" 
-                         data-start="1000"
-                         data-easing="easeOutExpo">
-                        <img style="width: 100%;" src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/bg/pag_03/office_A/bg_slider10.png" alt="Image 5">
-                    </div>
-                    <div class="caption lft tp-resizeme"
-                         data-x="center"
-                         data-y="center"
-                         data-hoffset="0" 
-                         data-speed="900"
-                         data-start="2000"
-                         data-easing="easeOutExpo">
-                        <img style="width: 100%;" src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/bg/pag_03/office_A/bg_slider13.png" alt="Image 6">
-                    </div>
-                </li>                      
-                <li data-transition="fade" data-slotamount="8" data-masterspeed="500" data-delay="9400" data-thumb="">
-                    <!-- THE MAIN IMAGE IN THE FIRST SLIDE -->
-                    <img src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/bg/pag_03/office_A/bg_slider9.jpg" alt="">
-
-                    <div class="caption lfb tp-resizeme"
-                         data-x="center"
-                         data-y="center" 
-                         data-hoffset="0"
-                         data-speed="900" 
-                         data-start="1000"
-                         data-easing="easeOutExpo">
-                        <img style="width: 100%;" src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/bg/pag_03/office_A/bg_slider10.png" alt="Image 7">
-                    </div>
-                    <div class="caption lft tp-resizeme"
-                         data-x="center"
-                         data-y="center"
-                         data-hoffset="0" 
-                         data-speed="900"
-                         data-start="2000"
-                         data-easing="easeOutExpo">
-                        <img style="width: 100%;" src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/bg/pag_03/office_A/bg_slider14.png" alt="Image 8">
-                    </div>
-                </li>                      
-                <li data-transition="fade" data-slotamount="8" data-masterspeed="500" data-delay="9400" data-thumb="">
-                    <!-- THE MAIN IMAGE IN THE FIRST SLIDE -->
-                    <img src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/bg/pag_03/office_A/bg_slider9.jpg" alt="">
-
-                    <div class="caption lfb tp-resizeme"
-                         data-x="center"
-                         data-y="center" 
-                         data-hoffset="0"
-                         data-speed="900" 
-                         data-start="1000"
-                         data-easing="easeOutExpo">
-                        <img style="width: 100%;" src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/bg/pag_03/office_A/bg_slider10.png" alt="Image 9">
-                    </div>
-                    <div class="caption lft tp-resizeme"
-                         data-x="center"
-                         data-y="center"
-                         data-hoffset="0" 
-                         data-speed="900"
-                         data-start="2000"
-                         data-easing="easeOutExpo">
-                        <img style="width: 100%;" src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/bg/pag_03/office_A/bg_slider15.png" alt="Image 10">
-                    </div>
-                </li>                      
-                <li data-transition="fade" data-slotamount="8" data-masterspeed="500" data-delay="9400" data-thumb="">
-                    <!-- THE MAIN IMAGE IN THE FIRST SLIDE -->
-                    <img src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/bg/pag_03/office_A/bg_slider9.jpg" alt="">
-
-                    <div class="caption lfb tp-resizeme"
-                         data-x="center"
-                         data-y="center" 
-                         data-hoffset="0"
-                         data-speed="900" 
-                         data-start="1000"
-                         data-easing="easeOutExpo">
-                        <img style="width: 100%;" src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/bg/pag_03/office_A/bg_slider10.png" alt="Image 11">
-                    </div>
-                    <div class="caption lft tp-resizeme"
-                         data-x="center"
-                         data-y="center"
-                         data-hoffset="0" 
-                         data-speed="900"
-                         data-start="2000"
-                         data-easing="easeOutExpo">
-                        <img style="width: 100%;" src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/bg/pag_03/office_A/bg_slider16.png" alt="Image 12">
-                    </div>
-                </li>                      
-                <li data-transition="fade" data-slotamount="8" data-masterspeed="500" data-delay="9400" data-thumb="">
-                    <!-- THE MAIN IMAGE IN THE FIRST SLIDE -->
-                    <img src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/bg/pag_03/office_A/bg_slider9.jpg" alt="">
-
-                    <div class="caption lfb tp-resizeme"
-                         data-x="center"
-                         data-y="center" 
-                         data-hoffset="0"
-                         data-speed="900" 
-                         data-start="1000"
-                         data-easing="easeOutExpo">
-                        <img style="width: 100%;" src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/bg/pag_03/office_A/bg_slider10.png" alt="Image 13">
-                    </div>
-                    <div class="caption lft tp-resizeme"
-                         data-x="center"
-                         data-y="center"
-                         data-hoffset="0" 
-                         data-speed="900"
-                         data-start="2000"
-                         data-easing="easeOutExpo">
-                        <img style="width: 100%;" src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/bg/pag_03/office_A/bg_slider17.png" alt="Image 14">
-                    </div>
-                </li>                      
-            </ul>
+    <div class="fullwidthbanner-container slider">
+        <div id="sliderA" class="slider-img">
+            <div class="img"><a href="javascript:void(0);"><img src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/bg/pag_03/office_A/slider1.jpg" alt="0"></a></div>
+            <div class="img"><a href="javascript:void(0);"><img src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/bg/pag_03/office_A/slider2.jpg" alt="1"></a></div>
+            <div class="img"><a href="javascript:void(0);"><img src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/bg/pag_03/office_A/slider3.jpg" alt="2"></a></div>
+            <div class="img"><a href="javascript:void(0);"><img src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/bg/pag_03/office_A/slider4.jpg" alt="3"></a></div>
+            <div class="img"><a href="javascript:void(0);"><img src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/bg/pag_03/office_A/slider5.jpg" alt="4"></a></div>
+            <div class="img"><a href="javascript:void(0);"><img src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/bg/pag_03/office_A/slider6.jpg" alt="5"></a></div>
+            <div class="img"><a href="javascript:void(0);"><img src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/bg/pag_03/office_A/slider7.jpg" alt="6"></a></div>
+        </div> 
+        <div class="slider-view plus">
+            <div class="btn-view"><a href="javascript:void(0);"><i class="fa fa-search-plus fa-3x"></i></a></div>
         </div>
-    </div>
+        <div class="slider-button">
+            <div class="btn-list col-md-6">
+                <div class="btn-gallery" alt="0"><a href="javascript:void(0);">PB</a></div>
+                <div class="btn-gallery" alt="1"><a href="javascript:void(0);">P1</a></div>
+                <div class="btn-gallery" alt="2"><a href="javascript:void(0);">P2</a></div>
+                <div class="btn-gallery" alt="3"><a href="javascript:void(0);">P3</a></div>
+                <div class="btn-gallery" alt="4"><a href="javascript:void(0);">P4</a></div>
+                <div class="btn-gallery" alt="5"><a href="javascript:void(0);">P5</a></div>
+                <div class="btn-gallery" alt="6"><a href="javascript:void(0);">P6</a></div>
+            </div> 
+        </div>      
+    </div>            
 </div>

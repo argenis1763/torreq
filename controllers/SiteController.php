@@ -85,6 +85,22 @@ class SiteController extends Controller {
         return $this->render('about');
     }
 
+    public function actionOffices(){
+        $url = NULL;
+        if($_GET['floor'] == '0'){
+            $url = 'floor/_pb';
+        } else if($_GET['floor'] == '1'){
+            $url = 'floor/_p1';
+        } else if($_GET['floor'] == '2' || $_GET['floor'] == '3' || $_GET['floor'] == '4' || $_GET['floor'] == '5'){
+            $url = 'floor/_p2-p5';
+        } else if($_GET['floor'] == '6'){
+            $url = 'floor/_p6';
+        } else {
+            $url = '_offices';
+        }
+        return $this->renderPartial($url);
+    }
+    
     public function actionSendEmail() {
         return TRUE;        
     }
