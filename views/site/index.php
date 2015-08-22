@@ -31,7 +31,7 @@
 
     <!-- BEGIN VIDEO SECTION -->
     <section id="video">
-        <?php //$this->render('_video'); ?>
+        <?php $this->render('_video'); ?>
     </section>
     <!-- END VIDEO SECTION -->
 
