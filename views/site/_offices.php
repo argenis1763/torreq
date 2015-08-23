@@ -14,13 +14,13 @@
         </div>
         <div class="slider-button">
             <div class="btn-list col-md-6">
-                <div class="btn-gallery" alt="0"><a href="javascript:void(0);">PB</a></div>
-                <div class="btn-gallery" alt="1"><a href="javascript:void(0);">P1</a></div>
-                <div class="btn-gallery" alt="2"><a href="javascript:void(0);">P2</a></div>
-                <div class="btn-gallery" alt="3"><a href="javascript:void(0);">P3</a></div>
-                <div class="btn-gallery" alt="4"><a href="javascript:void(0);">P4</a></div>
-                <div class="btn-gallery" alt="5"><a href="javascript:void(0);">P5</a></div>
-                <div class="btn-gallery" alt="6"><a href="javascript:void(0);">P6</a></div>
+                <div class="btn-gallery"><a class="active" href="javascript:void(0);" rel="0">PB</a></div>
+                <div class="btn-gallery"><a href="javascript:void(0);" rel="1">P1</a></div>
+                <div class="btn-gallery"><a href="javascript:void(0);" rel="2">P2</a></div>
+                <div class="btn-gallery"><a href="javascript:void(0);" rel="3">P3</a></div>
+                <div class="btn-gallery"><a href="javascript:void(0);" rel="4">P4</a></div>
+                <div class="btn-gallery"><a href="javascript:void(0);" rel="5">P5</a></div>
+                <div class="btn-gallery"><a href="javascript:void(0);" rel="6">P6</a></div>
             </div> 
         </div>      
     </div>            
