@@ -21,7 +21,7 @@
                     </div>
                 </div>
                 <textarea rows="8" name="message" placeholder="Escriba un mensaje ..." class="border-top-transparent form-control"></textarea>
-                <button type="submit" class="btn-danger btn-md btn-block">Enviar</button>
+                <button type="submit" class="btn-danger btn-md btn-block" style="background: #001D3B; border-color: #001D3B !important;">Enviar</button>
             </div>
         </div><!-- //end row -->
     </div>
