@@ -97,7 +97,16 @@ class SiteController extends Controller {
     }
 
     public function actionSendEmail() {
-        return TRUE;
+        if ($_POST['data']) {
+            $mail = Yii::$app->mailer->compose();
+            $mail->setTo($to);
+            $mail->setFrom([Yii::$app->params['supportEmail'] => Yii::$app->name]);
+            $mail->setSubject($subject);
+            $mail->setHtmlBody($body);
+            return $mail->send();
+        } else {
+            return FALSE;
+        }
     }
 
 }

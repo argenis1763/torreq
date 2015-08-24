@@ -27,6 +27,14 @@ $config = [
             // 'useFileTransport' to false and configure a transport
             // for the mailer to send real emails.
             'useFileTransport' => true,
+            'transport' => [
+                'class' => 'Swift_SmtpTransport',
+                'host' => 'localhost',
+                'username' => 'username',
+                'password' => 'password',
+                'port' => '587',
+                'encryption' => 'tls',
+            ],
         ],
         'log' => [
             'traceLevel' => YII_DEBUG ? 3 : 0,
@@ -40,8 +48,8 @@ $config = [
         'urlManager' => [
             'class' => 'yii\web\UrlManager',
             'enablePrettyUrl' => true,
-            'showScriptName' => false          
-        ],        
+            'showScriptName' => false
+        ],
         'db' => require(__DIR__ . '/db.php'),
     ],
     'params' => $params,

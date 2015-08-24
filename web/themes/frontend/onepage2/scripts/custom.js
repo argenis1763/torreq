@@ -42,7 +42,6 @@ function _sliderAvance(section) {
     });
 
     $('.slider-view.plus').click(function() {
-        console.log(section);
         var div = $('.slider-view').parent().children('.slider-img').attr('id');
         var alt = $('#' + div + ' div:visible').find('img').attr('alt');
         $.ajax({

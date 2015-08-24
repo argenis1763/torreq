@@ -5,7 +5,8 @@
                 <div class="content-page">
                     <div class="row">
                         <div class="col-md-12">
-                            <div id="map" class="gmaps margin-bottom-40" style="height:400px; margin-top: 60px;"></div>
+                            <div id="map" class="gmaps" style="height:410px; margin-top: 60px; margin-left: 12em; margin-right: 12em;"></div>
+                            <div id="info-map" class="row-fluid"><p>Situado en la Calle Alto Hatillo, Urbanización Los Naranjos. Caracas, Venezuela</p></div>
                         </div>                
                     </div>
                 </div>                
