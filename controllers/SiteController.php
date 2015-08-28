@@ -96,13 +96,14 @@ class SiteController extends Controller {
         return $this->renderPartial($url);
     }
 
-    public function actionSendEmail() {
-        if ($_POST['data']) {
+    public function actionEmail() {
+        if (Yii::$app->request->isAjax) {
+            $data = Yii::$app->request->post();
             $mail = Yii::$app->mailer->compose();
-            $mail->setTo($to);
-            $mail->setFrom([Yii::$app->params['supportEmail'] => Yii::$app->name]);
-            $mail->setSubject($subject);
-            $mail->setHtmlBody($body);
+            $mail->setTo([Yii::$app->params['supportEmail'] => Yii::$app->name]);
+            $mail->setFrom($data['mail']);
+            $mail->setSubject($data['subject']);
+            $mail->setHtmlBody($data['message']);
             return $mail->send();
         } else {
             return FALSE;

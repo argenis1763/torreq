@@ -1,5 +1,5 @@
 function _sliderSimple(section) {
-    $('#' + section + ' .right a').click(function()
+    $('#' + section + ' .right a').click(function ()
     {
         var div = $('#' + section + ' .right').parent().parent().children('.slider-img').attr('id');
         $('#' + section + ' .left a').show();
@@ -11,7 +11,7 @@ function _sliderSimple(section) {
         }
     });
 
-    $('#' + section + ' .left a').click(function()
+    $('#' + section + ' .left a').click(function ()
     {
         var div = $('#' + section + ' .left').parent().parent().children('.slider-img').attr('id');
         $('#' + section + ' .right a').show();
@@ -25,7 +25,7 @@ function _sliderSimple(section) {
 }
 
 function _sliderAvance(section) {
-    $('#' + section + ' .btn-gallery a').click(function() {
+    $('#' + section + ' .btn-gallery a').click(function () {
         $('#' + section + ' .btn-gallery a').removeClass('active');
         $(this).addClass('active');
 
@@ -35,39 +35,39 @@ function _sliderAvance(section) {
         $('#' + div + ' div').eq(rel).fadeIn(1000);
     });
 
-    $('.slider-view').hover(function() {
+    $('.slider-view').hover(function () {
         $('.btn-view').fadeIn(1000);
-    }, function() {
+    }, function () {
         $('.btn-view').fadeOut(0);
     });
 
-    $('.slider-view.plus').click(function() {
+    $('.slider-view.plus').click(function () {
         var div = $('.slider-view').parent().children('.slider-img').attr('id');
         var alt = $('#' + div + ' div:visible').find('img').attr('alt');
         $.ajax({
             type: 'GET',
             url: 'site/offices',
             data: 'floor=' + alt,
-            before: function() {
+            before: function () {
                 $('#' + section + ' .slider').empty();
             },
-            success: function(data) {
+            success: function (data) {
                 $('#' + section + ' .slider').html(data);
                 _sliderAvance(section);
             }
         });
     });
 
-    $('.slider-view.minus').click(function() {
+    $('.slider-view.minus').click(function () {
         console.log(section);
         var rel = $(this).find('a').attr('rel');
         $.ajax({
             type: 'GET',
             url: 'site/offices',
-            before: function() {
+            before: function () {
                 $('#' + section + ' .slider').empty();
             },
-            success: function(data) {
+            success: function (data) {
                 $('#' + section + ' .slider').html(data).fadeIn(1000);
                 $('#' + section + ' .img').hide();
                 $('#' + section + ' .slider-img div').eq(rel).show();
@@ -79,11 +79,67 @@ function _sliderAvance(section) {
     });
 }
 
-$(document).ready(function() {
+function _sendMail() {
+    $('#btn-mail').click(function () {
+        var name = $('#form-name').val();
+        var mail = $('#form-mail').val();
+        var phone = $('#form-phone').val();
+        var subject = $('#form-subject').val();
+        var message = $('#form-message').val();
+        var text = 'Campos requeridos:\n\n';
+        var send = true;
+
+        if (name == "") {
+            text = text.concat(" -- Nombre\n");
+            send = false;
+        }
+        if (mail == "") {
+            text = text.concat(" -- Correo\n");
+            send = false;
+        }
+        if (message == "") {
+            text = text.concat(" -- Mensaje");
+            send = false;
+        }
+
+        if (send) {
+            var parameters = {
+                "name": name,
+                "mail": mail,
+                "phone": phone,
+                "subject": subject,
+                "message": message
+            };
+            $.ajax({
+                type: 'POST',
+                url: 'site/email',
+                data: parameters,
+                success: function (data) {
+//                    $('#form-name').val("");
+//                    $('#form-mail').val("");
+//                    $('#form-phone').val("");
+//                    $('#form-subject').val("");
+//                    $('#form-message').val("");
+//                    alert("El correo fue enviado exitosamente.");
+                    console.log(data);
+                    _sendMail();
+                },
+//                error: function () {
+//                    alert("Ocurrio un error inesperado.");
+//                }
+            });
+        } else {
+            alert(text);
+        }
+    });
+}
+
+$(document).ready(function () {
     $('#slider1.slider-img div:gt(0)').hide();
     $('#sliderA.slider-img div:gt(0)').hide();
     _sliderSimple('project');
     _sliderAvance('offices');
+    _sendMail();
 //    setInterval(function () {
 //        $('#slider-img div:first-child').fadeOut(0)
 //                .next('div').fadeIn(1000)
