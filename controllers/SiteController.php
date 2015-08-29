@@ -45,6 +45,11 @@ class SiteController extends Controller {
         ];
     }
 
+    public function beforeAction($action) {
+        $this->enableCsrfValidation = false;
+        return parent::beforeAction($action);
+    }
+
     public function actionIndex() {
         return $this->render('index');
     }
@@ -100,9 +105,9 @@ class SiteController extends Controller {
         if (Yii::$app->request->isAjax) {
             $data = Yii::$app->request->post();
             $mail = Yii::$app->mailer->compose();
-            $mail->setTo([Yii::$app->params['supportEmail'] => Yii::$app->name]);
-            $mail->setFrom($data['mail']);
-            $mail->setSubject($data['subject']);
+            $mail->setTo(Yii::$app->params['adminEmail']);
+            $mail->setFrom($data['mail'], 'Torre Q');
+            $mail->setSubject('Torre Q - Solicitud de Información');
             $mail->setHtmlBody($data['message']);
             return $mail->send();
         } else {
