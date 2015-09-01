@@ -34,7 +34,7 @@ var Layout = function () {
         $(function() {
             var padding = 70;
 
-            $('.page-scroll a').on('click', function(event) {
+            $('.page-scroll a, a.page-scroll').on('click', function(event) {
                 var $anchor = $(this);
                 $('html, body').stop().animate({
                     scrollTop: $($anchor.attr('href')).offset().top - padding

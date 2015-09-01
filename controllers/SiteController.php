@@ -106,7 +106,7 @@ class SiteController extends Controller {
             $data = Yii::$app->request->post();
             $mail = Yii::$app->mailer->compose();
             $mail->setTo(Yii::$app->params['adminEmail']);
-            $mail->setFrom($data['mail'], 'Torre Q');
+            $mail->setFrom('info@torreq.com', 'Torre Q');
             $mail->setSubject('Torre Q - Solicitud de Información');
             $mail->setHtmlBody($data['message']);
             return $mail->send();

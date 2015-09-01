@@ -58,7 +58,7 @@ AppAsset::register($this);
                                      data-speed="900" 
                                      data-start="2500" 
                                      data-easing="easeOutExpo">
-                                    <div class="page-scroll"><a href="#project"><i class="fa fa-angle-down fa-5x"></i></a></div>
+                                    <a class="page-scroll" href="#project"><i class="fa fa-angle-down fa-5x"></i></a>
                                 </div> 
                             </li>
                         </ul>

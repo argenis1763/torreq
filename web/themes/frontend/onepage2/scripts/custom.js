@@ -25,7 +25,7 @@ function _sliderSimple(section) {
 }
 
 function _sliderAvance(section) {
-    $('#' + section + ' .btn-gallery a').click(function() {
+    $('#' + section + ' .btn-gallery a').hover(function() {
         $('#' + section + ' .btn-gallery a').removeClass('active');
         $(this).addClass('active');
 

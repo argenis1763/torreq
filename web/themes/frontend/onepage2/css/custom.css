@@ -27,12 +27,44 @@ Slider custom Begin
     src: url(../font/couture-bld.otf);
 }
 
+@font-face {
+    font-family: Neou;
+    src: url(../font/Neou-Thin.otf);
+}
+
 body{
     font-family: Generica, serif;
 }
 
 .nav{
     font-family: Couture, serif;
+}
+
+.nav li a{
+    color: #919192 !important;
+}
+
+.nav li a:hover {
+    color: #ff4800 !important;
+}
+
+.header-navigation ul > li.active > a {
+    border-bottom: 2px solid #ff4800 !important;
+}
+
+.sections{
+    font-family: Neou, serif;
+}
+
+.sections-bg{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: #536571;
+}
+
+.sections-bg h1{
+    font-size: 60pt;
+    color: #FFF;
 }
 
 .slider{
