@@ -53,7 +53,7 @@ AppAsset::register($this);
                                 </div>
                                 <div class="caption lft tp-resizeme"
                                      data-x="center"
-                                     data-y="550"
+                                     data-y="bottom"
                                      data-hoffset="0" 
                                      data-speed="900" 
                                      data-start="2500" 

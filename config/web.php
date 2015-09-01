@@ -33,7 +33,7 @@ $config = [
                 'username' => 'info@torreq.com',
                 'password' => 'sKc52o2$',
                 'port' => '25',
-                'encryption' => 'tls',
+//                'encryption' => 'tls',
             ],
         ],
         'log' => [
