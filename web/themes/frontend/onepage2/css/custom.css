@@ -52,6 +52,11 @@ body{
     border-bottom: 2px solid #ff4800 !important;
 }
 
+.form-control {
+    color: #001D3B !important;
+    font-size: 20px !important;
+}
+
 .sections{
     font-family: Neou, serif;
 }

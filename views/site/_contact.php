@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-sm-6">
                 <div class="heading-left-light">
-                    <div id="map2" class="gmaps" style="height:394px;"></div>             
+                    <div id="map2" class="gmaps" style="height:426px;"></div>             
                 </div>
             </div>
             <div class="col-sm-6">
