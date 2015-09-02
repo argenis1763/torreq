@@ -53,6 +53,8 @@ function _sliderAvance(section) {
             },
             success: function(data) {
                 $('#' + section + ' .slider').html(data);
+                $('#' + section + ' .slider-img div:visible').fadeOut(0);
+                $('#' + section + ' .slider-img div').eq(0).fadeIn(0);
                 _sliderAvance(section);
             }
         });
