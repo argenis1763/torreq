@@ -48,8 +48,20 @@ body{
     color: #ff4800 !important;
 }
 
+.navbar {
+    margin-bottom: 0 !important;
+}
+
 .header-navigation ul > li.active > a {
     border-bottom: 2px solid #ff4800 !important;
+}
+
+.header .navbar-toggle .icon-bar {
+    background: #3f5263;
+}
+
+.navbar-toggle {
+    padding: 20px 10px !important;
 }
 
 .form-control {
@@ -107,7 +119,7 @@ body{
 
 .btn-view{
     position: relative;
-/*    display: none;*/
+    /*    display: none;*/
     display: inline-block;
     top: 40%;
     left: 2%;
@@ -371,6 +383,7 @@ body.page-header-fixed {
 .header .container {
     position: relative;
 }
+
 .ie8 .header {
     border-bottom: 1px solid #eee;
 }
@@ -381,8 +394,8 @@ body.page-header-fixed {
     font-weight: 400;
 
     margin-right: 67px;
-    padding-top: 22px;
-    padding-bottom: 22px;
+    padding-top: 9px;
+    padding-bottom: 11px;
 }
 
 .header .mobi-toggler {

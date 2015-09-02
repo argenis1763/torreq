@@ -18,7 +18,7 @@ AppAsset::register($this);
         <title><?= Html::encode($this->title) ?></title>
         <?php $this->head() ?>
     </head>
-    <body class="">
+    <body class="corporate page-header-fixed">
         <?php $this->beginBody() ?>      
 
         <!-- BEGIN INTRO SECTION -->
@@ -70,7 +70,7 @@ AppAsset::register($this);
         <!-- END INTRO SECTION -->        
 
         <!-- BEGIN HEADER -->
-        <div class="header">
+        <div class="header reduce-header">
             <nav class="navbar" role="navigation">
                 <div class="container">
                     <!-- Brand and toggle get grouped for better mobile display -->
@@ -83,8 +83,8 @@ AppAsset::register($this);
                                 <span class="icon-bar"></span>
                             </span>
                         </button>
-                        <a class="navbar-brand" href="#intro">
-                            <img class="logo-scroll" src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/logo/logo_default.png" alt="Logo">
+                        <a class="site-logo" href="#intro">
+                            <img class="" src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/logo/logo_default.png" alt="Logo">
                         </a>
                     </div>            
 
