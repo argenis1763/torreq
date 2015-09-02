@@ -102,7 +102,7 @@ body{
 
 .btn-view{
     position: relative;
-    display: none;
+/*    display: none;*/
     display: inline-block;
     top: 40%;
     left: 2%;
