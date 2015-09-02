@@ -9,9 +9,7 @@
             <div class="img"><a href="javascript:void(0);"><img src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/bg/pag_03/office_A/slider6.jpg" alt="5"></a></div>
             <div class="img"><a href="javascript:void(0);"><img src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/bg/pag_03/office_A/slider7.jpg" alt="6"></a></div>
         </div> 
-        <div class="slider-view plus">
-            <div class="btn-view"><a href="javascript:void(0);"><i class="fa fa-search-plus fa-3x"></i></a></div>
-        </div>
+        <div class="slider-view plus"></div>
         <div class="slider-button">
             <div class="btn-list col-md-6">
                 <div class="btn-gallery"><a class="active" href="javascript:void(0);" rel="0">PB</a></div>

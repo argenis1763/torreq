@@ -41,7 +41,7 @@ function _sliderAvance(section) {
         $('.btn-view').fadeOut(0);
     });
 
-    $('.slider-view.plus').click(function() {
+    $('.slider-view.plus, .btn-gallery a').click(function() {
         var div = $('.slider-view').parent().children('.slider-img').attr('id');
         var alt = $('#' + div + ' div:visible').find('img').attr('alt');
         $.ajax({

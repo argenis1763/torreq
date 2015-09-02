@@ -7,7 +7,7 @@
     <div class="img"><a href="javascript:void(0);"><img src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/bg/pag_03/office_B/P6/slider6.jpg" alt="5"></a></div>
 </div> 
 <div class="slider-view minus">
-    <div class="btn-view"><a href="javascript:void(0);" rel="6"><i class="fa fa-search-minus fa-3x"></i></a></div>
+    <div class="btn-view"><a href="javascript:void(0);" rel="6"><i class="fa fa-angle-left fa-4x"></i></a></div>
 </div>
 <div class="slider-button">
     <div class="btn-list col-md-6">
