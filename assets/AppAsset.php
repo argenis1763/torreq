@@ -49,7 +49,6 @@ class AppAsset extends AssetBundle
         'themes/frontend/onepage2/scripts/revo-ini.js',
         'themes/frontend/onepage2/scripts/custom.js',
         'themes/frontend/onepage2/scripts/layout.js',
-        'themes/frontend/layout/scripts/back-to-top.js'
     ];
     public $depends = [
         //'yii\web\YiiAsset',
