@@ -98,7 +98,7 @@ AppAsset::register($this);
                                 <a href="#offices">OFICINAS</a>
                             </li>
                             <li class="page-scroll">
-                                <a href="#location">UBICACION</a>
+                                <a href="#location">UBICACIÓN</a>
                             </li>
                             <li class="page-scroll">
                                 <a href="#video">VIDEO</a>

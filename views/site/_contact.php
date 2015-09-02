@@ -35,7 +35,7 @@
 <div class="footer-copyright">
     <div class="container">
         <div class="row">
-            <div class="col-sm-4" style="color: #FFF; font-weight: bold; font-size: medium;text-align: left;"><p>Avenida Francisco de Miranda, Centro Lido,</p><p>Oficina 84-A1. Municipio Chacao</p><p>Caracas, Venezuela.</p><br><p>+58 212 954 0731</p><br><p style="text-decoration: underline;">ahaconstructora@gmail.com</p></div>
+            <div class="col-sm-4" style="color: #FFF; font-weight: bold; font-size: medium;text-align: left;"><p>Avenida Francisco de Miranda, Centro Lido,</p><p>Oficina 84-A1. Municipio Chacao</p><p>Caracas, Venezuela.</p><br><p>+58 212 954 0731</p><br><p style="text-decoration: underline;">info@ahaconstructora.com</p></div>
             <div class="col-sm-4"><a href=" http://www.ahaconstructora.com" target="_blank" style="text-decoration: none;"><img style="width: 45%;" src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/bg/pag_06/bg_footer1.png" alt=""><p style="color: #FFF;font-size: medium;">A.H.A. CONSTRUCTORA</p></a></div>
             <div class="col-sm-4"><div class="footer-logo" style="max-height: 135px; height: 135px;"><a href=" http://www.modoarq.com.ve" target="_blank"><p style="position: absolute;top: 45%;right: 18%;color: #FFF;font-size: small;">Diseño Gráfico</p><img style="width: 45%; position: absolute; bottom: 0;" src="<?= Yii::getAlias('@web') ?>/themes/frontend/onepage2/img/bg/pag_06/bg_footer2.png" alt=""></a></div></div>         
         </div>
