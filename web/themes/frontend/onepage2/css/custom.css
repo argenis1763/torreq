@@ -52,8 +52,13 @@ body{
     margin-bottom: 0 !important;
 }
 
+.header-navigation ul > li > a {
+    padding: 29px 12px 30px !important;
+}
+
 .header-navigation ul > li.active > a {
     border-bottom: 2px solid #ff4800 !important;
+    padding: 29px 12px 30px !important;
 }
 
 .header .navbar-toggle .icon-bar {
