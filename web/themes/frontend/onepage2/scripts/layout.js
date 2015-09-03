@@ -168,8 +168,8 @@ var Layout = function () {
         },
 
         initFixHeaderWithPreHeader: function () {
-            jQuery(window).scroll(function() {                
-                if (jQuery(window).scrollTop()>680){
+            jQuery(window).scroll(function() {        
+                if ((jQuery(window).scrollTop()>($(".page-content").offset().top) - 95)){    
                     jQuery("body").addClass("page-header-fixed");
                 }
                 else {

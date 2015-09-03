@@ -18,7 +18,7 @@ AppAsset::register($this);
         <title><?= Html::encode($this->title) ?></title>
         <?php $this->head() ?>
     </head>
-    <body class="corporate page-header-fixed">
+    <body class="corporate">
         <?php $this->beginBody() ?>      
 
         <!-- BEGIN INTRO SECTION -->
