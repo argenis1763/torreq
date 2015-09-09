@@ -23,11 +23,6 @@ Slider custom Begin
 }
 
 @font-face {
-    font-family: Couture;
-    src: url(../font/couture-bld.otf);
-}
-
-@font-face {
     font-family: Neou;
     src: url(../font/Neou-Thin.otf);
 }
@@ -37,7 +32,10 @@ body{
 }
 
 .nav{
-    font-family: Couture, serif;
+    font-family: 'Open Sans', 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
 }
 
 .nav li a{
